@@ -43,4 +43,20 @@ streamlit run shadiyana_dashboard.py
 
 - `app.py` – Streamlit app
 - `shadiyana_insights.pdf` – PDF insights summary
-- `Data-Analytics-Case-Study.xlsx  ` – Input data
+- `Data-Analytics-Case-Study.xlsx` – Input data
+
+## 📂 Dependencies
+
+Make sure you have the following Python packages installed:
+
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `openpyxl`
+- `streamlit`
+
+### 💻 Install via pip:
+
+```bash
+pip install pandas matplotlib seaborn openpyxl streamlit
+```

@@ -17,9 +17,8 @@ A Streamlit-based interactive dashboard to extract actionable insights from Shad
 
 ```
 shadiyana-insights-dashboard/
-├── data/                    # Excel file with customer & vendor sheets
-├── shadiyana_dashboard.py  # Main dashboard script
-├── requirements.txt        # Dependencies
+├── Data-Analytics-Case-Study.xlsx                   # Excel file with customer & vendor sheets
+├── app.py
 └── README.md
 ```
 
@@ -42,6 +41,6 @@ streamlit run shadiyana_dashboard.py
 
 ## 📄 Deliverables
 
-- `shadiyana_dashboard.py` – Streamlit app
-- `shadiyana_report.pdf` – PDF insights summary
-- `data/` – Input data
+- `app.py` – Streamlit app
+- `shadiyana_insights.pdf` – PDF insights summary
+- `Data-Analytics-Case-Study.xlsx  ` – Input data

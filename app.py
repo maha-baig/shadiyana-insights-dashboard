@@ -8,7 +8,7 @@ sns.set(style="whitegrid")
 
 @st.cache_data
 def load_data():
-    xls = pd.ExcelFile('C:\\Users\\hp\\OneDrive - National University of Sciences & Technology\\Subjects\\Projects\\Shadiyana\\shadiyana-insights-dashboard\\shadiyana_env\\data\\Data-Analytics-Case-Study.xlsx')
+    xls = pd.ExcelFile('Data-Analytics-Case-Study.xlsx')
     customer_df = pd.read_excel(xls, sheet_name='Customer Information')
     vendor_df = pd.read_excel(xls, sheet_name='Vendor Information')
     key_df = pd.read_excel(xls, sheet_name='Key')
